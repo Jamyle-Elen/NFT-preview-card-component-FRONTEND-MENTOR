@@ -97,7 +97,7 @@ svg {
     width: 90%;
     height: 1px;
     border: 0px;
-    border-top: 1px solid hsl(217, 25%, 31%, 1);
+    border-top: 1px solid rgb(9, 22, 43);
     background-color: #dddddd;
     display: flex;
     margin-left: 5%;

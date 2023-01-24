@@ -18,9 +18,12 @@ body {
 .all {
     background: hsl(216, 50%, 16%);
     width: 270px;
+    height: 470px;
     display: flex;
     flex-direction: column;
     border-radius: 12px;
+    /*box-shadow: 0 10px 20px rgba(0,0,0,0.5);*/
+    box-shadow: 2px 10px 10px 20px rgba(11, 20, 34, 0.5);
 }
 
 .img {
@@ -34,6 +37,12 @@ img {
     border-radius: 12px;
 }
 
+/*.img :hover {
+    background: hsl(178, 100%, 50%);
+    border: red solid;
+    cursor: pointer;
+}*/
+
 .info {
     padding: 15px;
 }
@@ -46,16 +55,21 @@ img {
     font-weight: 600;
 }
 
+.info h2 :hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
 .info p {
 /*    color: hsl(178, 100%, 50%); etherneum*/ 
     color: hsl(215, 51%, 70%);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .view {
     display: flex;
     justify-content: space-between;
-    padding: 0 15px 10px 15px;
+    padding: 0 15px 20px 15px;
     text-align: center;
     align-items: center;
 }
@@ -63,28 +77,44 @@ img {
 .view .ethereum {
     color: hsl(178, 100%, 50%);
     font-weight: 600;
+    font-size: 13px;
+    display: flex;
 }
 
 .view .days-left {
     text-align: center;
     color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    display: flex;
+    text-align: center;
 }
 
-/*.linha {
-    border: hsl(215, 51%, 70%) solid 0.2px;
-    padding-left: 10px;
-}*/
-
-hr {
-    background: hsl(215, 51%, 70%);
-    height: 0.2px;
-    display: none;
+svg {
+    margin-right: 6px;
 }
+
+.linha {
+    width: 90%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid hsl(217, 25%, 31%, 1);
+    background-color: #dddddd;
+    display: flex;
+    margin-left: 5%;
+}
+
+/*hr {
+    display: flex;
+	width: 30%;
+	text-align: center; /* Para o IE */
+	/*margin: 0 auto 0 0; /* Para navegadores standard */
+/*}*/
+
 
 .avatar {
     display: flex;
     align-items: center;
-    padding: 10px 15px 12px 15px;
+    padding: 15px 15px 12px 15px;
 }
 
 .avatar img {
@@ -95,11 +125,16 @@ hr {
 
 .avatar p {
     color: hsl(215, 51%, 70%);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .avatar span {
     color: hsl(0, 0%, 100%);
+}
+
+p span :hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .attribution {

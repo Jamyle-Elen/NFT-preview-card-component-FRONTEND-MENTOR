@@ -103,14 +103,6 @@ svg {
     margin-left: 5%;
 }
 
-/*hr {
-    display: flex;
-	width: 30%;
-	text-align: center; /* Para o IE */
-	/*margin: 0 auto 0 0; /* Para navegadores standard */
-/*}*/
-
-
 .avatar {
     display: flex;
     align-items: center;

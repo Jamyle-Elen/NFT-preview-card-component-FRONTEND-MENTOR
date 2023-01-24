@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+/*hsl(215, 32%, 27%)  hsl(216, 50%, 16%)*/
+.all {
+    background: hsl(216, 50%, 16%);
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.img {
+    display: flex;
+    padding-top: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 12px;
+}
+
+.info {
+    padding: 15px;
+}
+
+.info h2 {
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 15px;
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info p {
+/*    color: hsl(178, 100%, 50%); etherneum*/ 
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.view {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 10px 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.view .ethereum {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.view .days-left {
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+}
+
+/*.linha {
+    border: hsl(215, 51%, 70%) solid 0.2px;
+    padding-left: 10px;
+}*/
+
+hr {
+    background: hsl(215, 51%, 70%);
+    height: 0.2px;
+    display: none;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 12px 15px;
+}
+
+.avatar img {
+    margin-right: 12px;
+    border: hsl(0, 0%, 100%) solid 0.2px;
+    border-radius: 100px;
+}
+
+.avatar p {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.avatar span {
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+    margin-top: 12px;
+    color: hsl(214, 9%, 31%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(215, 23%, 84%);
+}
